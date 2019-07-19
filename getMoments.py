@@ -111,8 +111,8 @@ if __name__ == '__main__':
     time.sleep(5)
     enter_pengyouquan('沐皮')
     PYQ_list = get_pages(1)  #获取最近一年的朋友圈
-    store_PYQText(PYQ_list,r'D:\词云\沐皮完整朋友圈.txt')  #存储原始朋友圈
-    remove_icondesc(PYQ_list, r'd:\词云\沐皮.txt')  #存储删除表情文本和符号之后的朋友圈，为生成词云做准备
+    store_PYQText(PYQ_list,r'D:\词云\哈罗皮完整朋友圈.txt')  #存储原始朋友圈
+    remove_icondesc(PYQ_list, r'd:\词云\哈罗皮已处理.txt')  #存储删除表情文本和符号之后的朋友圈，为生成词云做准备
     driver.quit()
 
 
